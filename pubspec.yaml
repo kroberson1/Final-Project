@@ -1,0 +1,24 @@
+name: football_project
+description: A new Flutter project.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'  # Adjust the SDK version based on your Flutter version
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.13.3
+  flutter_web_auth: ^0.5.0  # Update the version to a compatible version
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
